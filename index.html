@@ -4,49 +4,46 @@
   <meta charset="UTF-8" />
   <title>Enosh Livera | Software Engineer</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <style>
-    body { font-family: Arial, sans-serif; margin:0; background:#f4f4f4; }
-    header { background:#111; color:#fff; padding:40px; text-align:center; }
-    section { padding:40px; max-width:900px; margin:auto; background:#fff; margin-top:20px; }
-    h2 { color:#333; }
-    .projects a { display:block; margin:10px 0; color:#0066cc; text-decoration:none; }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
 <header>
   <h1>Waduge Enosh Dilshan Livera</h1>
   <p>Software Engineer | ML & MLOps Enthusiast</p>
+  <button onclick="scrollToSection('projects')">View Projects</button>
 </header>
 
-<section>
+<section id="about">
   <h2>About Me</h2>
-  <p>I am a Software Engineering graduate from London Metropolitan University with a strong interest in Machine Learning, MLOps, and cloud systems.</p>
+  <p>I’m a Software Engineering graduate from London Metropolitan University with strong interests in Machine Learning, MLOps, and scalable cloud systems.</p>
 </section>
 
-<section>
+<section id="skills">
   <h2>Skills</h2>
   <ul>
     <li>Python, Java, SQL</li>
-    <li>Machine Learning, Scikit-Learn, TensorFlow</li>
+    <li>Scikit-Learn, TensorFlow, PyTorch</li>
     <li>Docker, GitHub Actions, AWS</li>
   </ul>
 </section>
 
-<section class="projects">
+<section id="projects">
   <h2>Projects</h2>
-  <a href="#">Cloud-Based MLOps Pipeline</a>
-  <a href="#">ML Image Classification</a>
-  <a href="#">Full Stack Web App</a>
+  <div class="project-card">
+    <h3>Cloud-Based MLOps Pipeline</h3>
+    <p>CI/CD pipeline for ML models using Docker, GitHub Actions, and AWS.</p>
+    <a href="https://github.com/yourusername/mlops-pipeline" target="_blank">View on GitHub</a>
+  </div>
 </section>
 
-<section>
+<section id="contact">
   <h2>Contact</h2>
-  <p>Email: enoshdilshan2005@email.com</p>
-  <p>GitHub: https://github.com/enoshlivera</p>
-  <p>LinkedIn: https://www.linkedin.com/in/enosh-livera-790976229/</p>
+  <p>Email: your@email.com</p>
+  <p>GitHub: https://github.com/yourusername</p>
+  <p>LinkedIn: https://linkedin.com/in/yourprofile</p>
 </section>
 
+<script src="script.js"></script>
 </body>
 </html>
-
